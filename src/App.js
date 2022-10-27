@@ -1,7 +1,8 @@
 function App() {
+  const name = "Carrie"
 	return (
-		<div>
-			<h1>Hello from React</h1>
+		<div class="container">
+			<h1>Hello {name}</h1>
 		</div>
 	);
 }
